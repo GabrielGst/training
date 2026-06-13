@@ -1,0 +1,57 @@
+name: Deploy Dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dashboard/**"
+
+  workflow_dispatch:
+
+# TODO: Choose deployment target — Vercel (recommended) or GitHub Pages.
+# Currently a placeholder. Complete setup:
+#   Vercel: connect repo at vercel.com/new, add VERCEL_TOKEN + VERCEL_ORG_ID +
+#           VERCEL_PROJECT_ID as GitHub secrets, then uncomment the Vercel step below.
+#   GitHub Pages: set output: "export" in next.config.ts, uncomment the GH Pages step.
+# Why deferred: deployment target not yet decided; dashboard not yet production-ready.
+
+jobs:
+  deploy:
+    name: Build & Deploy Dashboard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: dashboard/package-lock.json
+
+      - name: Install dependencies
+        working-directory: dashboard
+        run: npm ci
+
+      - name: Build
+        working-directory: dashboard
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      # ── Vercel deployment (uncomment when ready) ──
+      # - name: Deploy to Vercel
+      #   uses: amondnet/vercel-action@v25
+      #   with:
+      #     vercel-token: ${{ secrets.VERCEL_TOKEN }}
+      #     vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+      #     vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+      #     working-directory: dashboard
+      #     vercel-args: "--prod"
+
+      # ── GitHub Pages deployment (uncomment when ready) ──
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: dashboard/out

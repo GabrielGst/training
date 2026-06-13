@@ -1,0 +1,262 @@
+{
+  "tracks": [
+    {
+      "id": "ai-engineer",
+      "name": "AI Engineer",
+      "modules": [
+        {
+          "id": "01-python-foundations",
+          "name": "Python Foundations",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "02-fastapi",
+          "name": "FastAPI",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "03-data-viz-seaborn-plotly",
+          "name": "Data Viz — Seaborn + Plotly",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "04-tensorflow",
+          "name": "TensorFlow",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "05-pytorch",
+          "name": "PyTorch",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "06-capstone-ml-api",
+          "name": "Capstone: ML Model API",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "software-engineer",
+      "name": "Software Engineer",
+      "modules": [
+        {
+          "id": "01-shell-scripting",
+          "name": "Shell Scripting",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "02-nodejs-fundamentals",
+          "name": "Node.js Fundamentals",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "03-nextjs",
+          "name": "Next.js",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "04-orchestration",
+          "name": "Orchestration",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "05-capstone-fullstack-app",
+          "name": "Capstone: Full-Stack App",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "data-engineer",
+      "name": "Data Engineer",
+      "modules": [
+        {
+          "id": "01-postgresql",
+          "name": "PostgreSQL",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "02-django-orm",
+          "name": "Django ORM",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "03-mysql-mariadb",
+          "name": "MySQL / MariaDB",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "04-data-pipelines",
+          "name": "Data Pipelines (Airflow + dbt)",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "05-capstone-data-platform",
+          "name": "Capstone: Data Platform",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-agents",
+      "name": "AI Agents",
+      "modules": [
+        {
+          "id": "01-llm-fundamentals",
+          "name": "LLM Fundamentals",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "02-langchain",
+          "name": "LangChain",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "03-langgraph",
+          "name": "LangGraph",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "04-crewai",
+          "name": "CrewAI",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "05-mcp-tool-use",
+          "name": "MCP Tool Use",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "06-capstone-agent-system",
+          "name": "Capstone: Agent System",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "gpu-monitoring",
+      "name": "GPU Monitoring",
+      "modules": [
+        {
+          "id": "01-cuda-setup",
+          "name": "CUDA Setup",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "02-nvidia-smi-nvtop",
+          "name": "nvidia-smi + nvtop",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "03-remote-training-bridge",
+          "name": "Remote Training Bridge",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "hpc-quantum",
+      "name": "HPC & Quantum",
+      "modules": [
+        {
+          "id": "01-hpc-intro",
+          "name": "HPC Intro (Slurm + MPI)",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        },
+        {
+          "id": "02-quantum-intro",
+          "name": "Quantum Intro (Qiskit)",
+          "status": "not_started",
+          "hoursLogged": 0,
+          "lastUpdated": null,
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "dailyLog": [],
+  "streak": {
+    "current": 0,
+    "longest": 0,
+    "lastStudyDate": null
+  }
+}

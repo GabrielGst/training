@@ -1,0 +1,56 @@
+version: "3.9"
+
+# Persistent volumes — data survives container restarts
+volumes:
+  postgres_data:
+  pgadmin_data:
+
+services:
+  # ─────────────────────────────────────────────
+  # PostgreSQL 16 — primary database for all data-engineering training
+  # Access: postgresql://training_user:training_pass@localhost:5432/training_db
+  # ─────────────────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: training_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: training_db
+      POSTGRES_USER: training_user
+      POSTGRES_PASSWORD: training_pass
+      # Allow any host to connect (safe for local dev only)
+      POSTGRES_HOST_AUTH_METHOD: md5
+    ports:
+      # host:container — connect from host with psql -h localhost -p 5432
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Place .sql init scripts here to auto-run on first start
+      - ./scripts/db-init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U training_user -d training_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─────────────────────────────────────────────
+  # pgAdmin 4 — visual PostgreSQL management UI
+  # Access: http://localhost:5050
+  # Login: admin@training.local / admin
+  # Then add server: host=postgres, port=5432, db=training_db
+  # ─────────────────────────────────────────────
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: training_pgadmin
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@training.local
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_LISTEN_PORT: 5050
+    ports:
+      - "5050:5050"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
