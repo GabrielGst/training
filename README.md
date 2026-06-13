@@ -133,3 +133,4 @@ This is a personal training repository. PRs are used as a discipline tool even w
 - No force-push to `main`
 
 See [git-workflow.md](doc/conventions/git-workflow.md) for the full workflow.
+
