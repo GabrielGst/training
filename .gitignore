@@ -15,8 +15,8 @@ wheels/
 pip-wheel-metadata/
 share/python-wheels/
 .installed.cfg
-lib/
-lib64/
+/lib/
+/lib64/
 MANIFEST
 .Python
 env/
@@ -104,6 +104,9 @@ docker-compose.override.yml
 *.db
 postgres_data/
 pgadmin_data/
+
+# === Dashboard runtime data ===
+dashboard/data/progress.json
 
 # === IDE / Editor ===
 .vscode/

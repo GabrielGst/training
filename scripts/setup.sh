@@ -35,11 +35,11 @@ header "Step 1: System dependencies"
 
 PACKAGES=(curl wget git build-essential libssl-dev zlib1g-dev libbz2-dev
           libreadline-dev libsqlite3-dev libffi-dev liblzma-dev libpq-dev
-          postgresql-client docker-compose-plugin)
+          postgresql-client)
 
 MISSING=()
 for pkg in "${PACKAGES[@]}"; do
-  if ! dpkg -l "$pkg" &>/dev/null; then
+  if ! dpkg -s "$pkg" 2>/dev/null | grep -q "^Status: install ok"; then
     MISSING+=("$pkg")
   fi
 done
@@ -47,7 +47,7 @@ done
 if [ ${#MISSING[@]} -gt 0 ]; then
   info "Installing: ${MISSING[*]}"
   sudo apt-get update -qq
-  sudo apt-get install -y -qq "${MISSING[@]}"
+  sudo apt-get install -y -qq "${MISSING[@]}" || error "Failed to install system packages: ${MISSING[*]}"
   success "System packages installed"
 else
   success "System packages already present"
@@ -58,7 +58,7 @@ if ! command -v docker &>/dev/null; then
   info "Installing Docker via official script..."
   curl -fsSL https://get.docker.com | bash
   sudo usermod -aG docker "$USER"
-  warn "Docker installed. Log out and back in (or run 'newgrp docker') to use without sudo."
+  warn "Docker installed. You must log out and back in (or run 'newgrp docker') before Step 6 (Docker Compose) will work without sudo."
 else
   success "Docker $(docker --version | cut -d' ' -f3 | tr -d ',') already installed"
 fi
@@ -143,21 +143,28 @@ header "Step 5: Node root dependencies (commitlint + husky)"
 
 cd "${REPO_ROOT}"
 npm install --silent
-npm run prepare --silent 2>/dev/null || true
-success "Root Node dependencies installed and husky hooks configured"
+if ! npm run prepare --silent 2>/dev/null; then
+  warn "Husky prepare step failed — hooks may not be configured. Run 'npm run prepare' manually."
+else
+  success "Root Node dependencies installed and husky hooks configured"
+fi
 
 # ── Step 6: Docker Compose stack ───────────────────────────────────────────────
 header "Step 6: Docker Compose stack (postgres + pgadmin)"
 
 cd "${REPO_ROOT}"
 
-if docker compose ps postgres 2>/dev/null | grep -q "running"; then
+if ! docker info &>/dev/null; then
+  warn "Docker socket not accessible in this session. Run: newgrp docker"
+  warn "Then re-run this script to complete Step 6, or start the stack manually: docker compose up -d"
+elif docker compose ps postgres 2>/dev/null | grep -q "running"; then
   success "Docker Compose stack already running"
 else
   info "Starting Docker Compose stack..."
   docker compose up -d
 
   info "Waiting for postgres to become healthy..."
+  sleep 2
   RETRIES=15
   until docker compose exec -T postgres pg_isready -U training_user -d training_db &>/dev/null; do
     RETRIES=$((RETRIES - 1))
@@ -168,7 +175,8 @@ else
   done
   success "PostgreSQL 16 healthy at localhost:5432"
   success "pgAdmin 4 available at http://localhost:5050"
-fi
+fi  # docker compose block
+fi  # docker info check
 
 # ── Summary ────────────────────────────────────────────────────────────────────
 header "Setup complete"
