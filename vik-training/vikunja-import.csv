@@ -1,0 +1,115 @@
+title,description,project,priority,labels,done
+"Python Foundations","Core Python syntax, data structures, OOP, and tooling for ML/AI workflows","AI Engineer",2,"module",false
+"FastAPI","REST API design, async endpoints, Pydantic models, and OpenAPI docs","AI Engineer",2,"module",false
+"Data Viz — Seaborn + Plotly","Statistical and interactive visualizations for ML outputs and EDA","AI Engineer",2,"module",false
+"TensorFlow","Neural network fundamentals, training loops, and Keras API","AI Engineer",2,"module",false
+"PyTorch","Dynamic computation graphs, custom datasets, and model training pipelines","AI Engineer",2,"module",false
+"LangChain & RAG","RAG pipelines, chains, memory, and retrieval-augmented generation patterns","AI Engineer",2,"module",false
+"Vector Databases","Embeddings and similarity search with FAISS, Pinecone, and Chroma","AI Engineer",2,"module",false
+"LLM Prompt Engineering","System prompts, few-shot, CoT, tool-use, and prompt evaluation","AI Engineer",2,"module",false
+"ML Explainability","SHAP, LIME, feature importance, and model cards for interpretability","AI Engineer",2,"module",false
+"Time-Series Forecasting","Prophet, LSTM, N-BEATS for temporal prediction tasks","AI Engineer",2,"module",false
+"Streaming ML","Online learning, Faust, Kafka Streams, and concept drift detection","AI Engineer",2,"module",false
+"MLOps & CI/CD","Model versioning, MLflow, CI pipelines, and automated deployment","AI Engineer",2,"module",false
+"Capstone: ML Model API","End-to-end ML model trained, evaluated, and served via production API","AI Engineer",3,"module,capstone",false
+"Shell Scripting","Bash scripting, cron, process management, and Unix tooling","Software Engineer",2,"module",false
+"Node.js Fundamentals","Event loop, streams, modules, npm ecosystem, and async patterns","Software Engineer",2,"module",false
+"Next.js Basics","App Router, server components, routing, and data fetching fundamentals","Software Engineer",2,"module",false
+"Next.js Advanced","ISR, middleware, auth, advanced data fetching, and performance tuning","Software Engineer",2,"module",false
+"Orchestration (Docker + CI/CD)","Docker Compose, multi-stage builds, GitHub Actions pipelines","Software Engineer",2,"module",false
+"Testing Deep Dive","Unit, integration, and E2E testing with Jest, Playwright, and Vitest","Software Engineer",2,"module",false
+"Performance Optimization","Profiling, bundle analysis, caching strategies, and Core Web Vitals","Software Engineer",2,"module",false
+"Capstone: Full-Stack App","Production-grade full-stack application shipped end-to-end","Software Engineer",3,"module,capstone",false
+"PostgreSQL Advanced","Window functions, CTEs, indexing strategies, and query optimization","Data Engineer",2,"module",false
+"Django ORM","Models, migrations, querysets, signals, and admin customization","Data Engineer",2,"module",false
+"MySQL / MariaDB","Schema design, replication, and differences with PostgreSQL","Data Engineer",2,"module",false
+"Data Pipelines — Airflow","DAG design, operators, scheduling, and pipeline monitoring","Data Engineer",2,"module",false
+"dbt Transformations","Modular SQL transforms, tests, docs, and incremental models","Data Engineer",2,"module",false
+"Data Warehouse (Snowflake)","Snowflake architecture, stages, clustering, and cost optimization","Data Engineer",2,"module",false
+"Observability & Monitoring","Metrics, traces, and logs with OpenTelemetry and Grafana","Data Engineer",2,"module",false
+"Capstone: Data Platform","End-to-end data platform from ingestion to serving layer","Data Engineer",3,"module,capstone",false
+"LLM Fundamentals","Transformer architecture, tokenization, and foundational concepts","AI Agents",2,"module",false
+"LangChain","Chains, tools, memory, agents, and production LangChain patterns","AI Agents",2,"module",false
+"LangGraph","Graph-based agent orchestration, state machines, and multi-agent flows","AI Agents",2,"module",false
+"CrewAI","Role-based multi-agent systems and crew orchestration","AI Agents",2,"module",false
+"MCP Tool Use","Model Context Protocol, tool definitions, and agent tool integration","AI Agents",2,"module",false
+"Advanced RAG","Hybrid search, re-ranking, query rewriting, and RAG evaluation","AI Agents",2,"module",false
+"Capstone: Agent System","Production multi-agent system with tool use and orchestration","AI Agents",3,"module,capstone",false
+"CUDA Setup","Driver installation, CUDA toolkit, environment, and GPU verification","GPU Monitoring",2,"module",false
+"nvidia-smi + nvtop","GPU metrics, monitoring commands, and power/memory profiling","GPU Monitoring",2,"module",false
+"Remote Training Bridge","SSH tunneling, rsync workflows, and remote GPU job dispatch","GPU Monitoring",2,"module",false
+"Training Dashboard","Real-time training metrics dashboard with WebSocket streaming","GPU Monitoring",2,"module",false
+"Capstone: GPU Monitor CLI","CLI tool for GPU health monitoring with alerting and reporting","GPU Monitoring",3,"module,capstone",false
+"HPC Intro (Slurm + MPI)","Job scheduling with Slurm, MPI parallel programming fundamentals","HPC & Quantum",2,"module",false
+"Quantum Intro (Qiskit)","Qubits, quantum gates, circuits, and Qiskit programming model","HPC & Quantum",2,"module",false
+"Capstone: Hybrid Quantum-Classical","Hybrid quantum-classical algorithm implemented and benchmarked","HPC & Quantum",3,"module,capstone",false
+"Define data schema and API contracts","Specify input/output schemas, data sources (pitch decks, financials), and API surface","P01: VC Due Diligence AI Analyst",2,"fde-ai,setup",false
+"Build document ingestion pipeline","PDF parser + HTML scraper feeding a normalized document store","P01: VC Due Diligence AI Analyst",3,"fde-ai,build",false
+"Implement RAG with vector store","Embed documents and build retrieval pipeline (FAISS or Pinecone)","P01: VC Due Diligence AI Analyst",3,"fde-ai,build",false
+"Develop AI analyst agent","LangChain/LangGraph agent with structured analysis output and tool calls","P01: VC Due Diligence AI Analyst",3,"fde-ai,build",false
+"Build FastAPI query endpoints","REST endpoints for analysis requests, streaming responses, and result caching","P01: VC Due Diligence AI Analyst",3,"fde-ai,build",false
+"Create evaluation framework","Precision/recall metrics on a curated VC analysis test set","P01: VC Due Diligence AI Analyst",3,"fde-ai,build",false
+"Ship CLI demo with sample VC analysis","Packaged CLI with sample output, README, and architecture diagram","P01: VC Due Diligence AI Analyst",3,"fde-ai,ship",false
+"Design intent classification taxonomy","Define support intents, labels, and escalation routing rules","P02: Customer Support Multimodal Triage",2,"fde-ai,setup",false
+"Build multimodal input pipeline","Unified ingestion for text, image, and audio support tickets","P02: Customer Support Multimodal Triage",3,"fde-ai,build",false
+"Train triage classifier model","Fine-tune or prompt-engineer classifier for intent and priority","P02: Customer Support Multimodal Triage",3,"fde-ai,build",false
+"Implement routing engine","Priority scoring, channel selection, and team assignment logic","P02: Customer Support Multimodal Triage",3,"fde-ai,build",false
+"Build FastAPI webhook and Slack integration","Incoming webhook, triage processing, and Slack notification dispatch","P02: Customer Support Multimodal Triage",3,"fde-ai,build",false
+"Evaluate triage accuracy on test set","Confusion matrix, F1 per class, and latency benchmarks","P02: Customer Support Multimodal Triage",3,"fde-ai,build",false
+"Document deployment architecture","System diagram, runbook, and API reference for the triage system","P02: Customer Support Multimodal Triage",3,"fde-ai,ship",false
+"Set up streaming data pipeline","Kafka topics or Faust application for real-time transaction events","P03: Fintech Fraud Detection Real-Time",2,"fde-ai,setup",false
+"Engineer features from transaction streams","Windowed aggregates, velocity features, and merchant embeddings","P03: Fintech Fraud Detection Real-Time",3,"fde-ai,build",false
+"Train fraud detection model","XGBoost or LightGBM with SMOTE balancing on labeled transaction data","P03: Fintech Fraud Detection Real-Time",3,"fde-ai,build",false
+"Build real-time inference service","FastAPI + Redis cache for sub-100ms fraud scoring endpoint","P03: Fintech Fraud Detection Real-Time",3,"fde-ai,build",false
+"Implement alerting and case management API","Rule-based alert triggers and REST API for fraud case tracking","P03: Fintech Fraud Detection Real-Time",3,"fde-ai,build",false
+"Backtest on historical labeled dataset","Walk-forward validation and threshold calibration on holdout data","P03: Fintech Fraud Detection Real-Time",3,"fde-ai,build",false
+"Write performance report (AUC and latency)","Model card with AUC-ROC, precision-recall curve, and P99 latency","P03: Fintech Fraud Detection Real-Time",3,"fde-ai,ship",false
+"Ingest and clean multi-SKU historical sales data","ETL pipeline for POS or synthetic sales data with quality checks","P04: Supply Chain Demand Forecasting",2,"fde-ai,setup",false
+"Build feature store for forecasting","Seasonality decomposition, promotion flags, and holiday calendar features","P04: Supply Chain Demand Forecasting",3,"fde-ai,build",false
+"Train forecasting models","Prophet, LSTM, and N-BEATS trained and compared per SKU","P04: Supply Chain Demand Forecasting",3,"fde-ai,build",false
+"Evaluate accuracy (MAPE and RMSE per SKU)","Cross-validated error metrics with confidence intervals","P04: Supply Chain Demand Forecasting",3,"fde-ai,build",false
+"Build REST API for forecast serving","Endpoint returning demand forecasts with uncertainty bounds","P04: Supply Chain Demand Forecasting",3,"fde-ai,build",false
+"Create inventory optimization layer","Safety stock and reorder point calculations on top of forecast","P04: Supply Chain Demand Forecasting",3,"fde-ai,build",false
+"Ship Jupyter report and API demo","Reproducible notebook with full analysis + live API walkthrough","P04: Supply Chain Demand Forecasting",3,"fde-ai,ship",false
+"Define ICP scoring model and data sources","Ideal Customer Profile criteria, scoring weights, and data inputs","P05: Sales GTM Playbook and Automation",2,"fde-ai,setup",false
+"Build lead enrichment pipeline","Web scraping and API integrations to populate lead attributes","P05: Sales GTM Playbook and Automation",3,"fde-ai,build",false
+"Train ICP scoring model","Logistic regression or gradient boosting on labeled won/lost deals","P05: Sales GTM Playbook and Automation",3,"fde-ai,build",false
+"Automate outreach sequence generation","LLM-generated personalized outreach emails and follow-up cadence","P05: Sales GTM Playbook and Automation",3,"fde-ai,build",false
+"Build CRM integration layer","HubSpot or Salesforce API sync for leads and deal stage updates","P05: Sales GTM Playbook and Automation",3,"fde-ai,build",false
+"Set up A/B test framework","Statistical significance testing for message and sequence variants","P05: Sales GTM Playbook and Automation",3,"fde-ai,build",false
+"Ship GTM playbook and documentation","End-to-end GTM playbook with automation scripts and usage guide","P05: Sales GTM Playbook and Automation",3,"fde-ai,ship",false
+"Define productivity metrics and data sources","Identify KPIs: cycle time, PR review lag, CI flakiness from GitHub/Jira/CI","P06: Engineering Productivity AI Copilot",2,"fde-ai,setup",false
+"Build data ingestion and normalization pipeline","GitHub, Jira, and CI event collectors with normalized schema","P06: Engineering Productivity AI Copilot",3,"fde-ai,build",false
+"Implement anomaly detection for bottlenecks","Statistical anomaly detection on engineering throughput metrics","P06: Engineering Productivity AI Copilot",3,"fde-ai,build",false
+"Build LLM summarizer for PR and issue digests","Structured summaries of PRs, issues, and review threads via LLM","P06: Engineering Productivity AI Copilot",3,"fde-ai,build",false
+"Create Slack bot integration","Slash commands and daily digest delivery to team channels","P06: Engineering Productivity AI Copilot",3,"fde-ai,build",false
+"Build developer-facing dashboard","Next.js dashboard with team velocity, bottleneck alerts, and trends","P06: Engineering Productivity AI Copilot",3,"fde-ai,build",false
+"Ship weekly digest demo","Packaged demo with sample GitHub org data and sample digest output","P06: Engineering Productivity AI Copilot",3,"fde-ai,ship",false
+"Model the vehicle routing problem","Formalize technician scheduling as VRP with time windows and skills","P07: Field Service Optimization and Routing",2,"fde-ai,setup",false
+"Implement OR-Tools routing solution","Google OR-Tools VRP solver with capacity and time-window constraints","P07: Field Service Optimization and Routing",3,"fde-ai,build",false
+"Build real-time job assignment API","REST API for dynamic job dispatch and re-routing on new events","P07: Field Service Optimization and Routing",3,"fde-ai,build",false
+"Integrate GPS and location data feed","Live technician location ingestion and route adjustment logic","P07: Field Service Optimization and Routing",3,"fde-ai,build",false
+"Add ML-based travel time prediction","Model trained on historical GPS data to predict arrival windows","P07: Field Service Optimization and Routing",3,"fde-ai,build",false
+"Build dispatch dashboard","React/Next.js map dashboard with live technician positions and jobs","P07: Field Service Optimization and Routing",3,"fde-ai,build",false
+"Benchmark routing solution vs. baseline","Solution quality metrics: total distance, SLA adherence, idle time","P07: Field Service Optimization and Routing",3,"fde-ai,ship",false
+"Preprocess and anonymize clinical dataset","MIMIC-III or synthetic EHR data cleaned and de-identified","P08: Healthcare Patient Outcome Prediction",2,"fde-ai,setup",false
+"Engineer clinical features","Vitals, lab results, ICD codes, and admission history feature set","P08: Healthcare Patient Outcome Prediction",3,"fde-ai,build",false
+"Train readmission prediction model","Gradient boosting or LSTM on 30-day readmission classification task","P08: Healthcare Patient Outcome Prediction",3,"fde-ai,build",false
+"Evaluate with AUROC and calibration plots","Model evaluation with calibration curve, AUROC, and demographic fairness checks","P08: Healthcare Patient Outcome Prediction",3,"fde-ai,build",false
+"Build FHIR-compatible prediction API","REST endpoint returning predictions with FHIR-compliant response schema","P08: Healthcare Patient Outcome Prediction",3,"fde-ai,build",false
+"Implement explainability layer (SHAP)","SHAP feature importance and per-prediction explanations for clinicians","P08: Healthcare Patient Outcome Prediction",3,"fde-ai,build",false
+"Write clinical decision support report","Model card, bias analysis, deployment constraints, and usage guide","P08: Healthcare Patient Outcome Prediction",3,"fde-ai,ship",false
+"Design multi-touch attribution data model","Define touchpoint schema, conversion events, and attribution window","P09: Marketing Performance Attribution",2,"fde-ai,setup",false
+"Ingest ad platform data","Google Ads and Meta API connectors with incremental data sync","P09: Marketing Performance Attribution",3,"fde-ai,build",false
+"Implement attribution models","Last-touch, linear, and Shapley value attribution implemented and compared","P09: Marketing Performance Attribution",3,"fde-ai,build",false
+"Build A/B test significance calculator","Frequentist and Bayesian test significance with sample size estimator","P09: Marketing Performance Attribution",3,"fde-ai,build",false
+"Create performance dashboard","Campaign ROI, channel attribution, and ROAS dashboard","P09: Marketing Performance Attribution",3,"fde-ai,build",false
+"Automate budget reallocation recommendations","Optimization model shifting budget to highest-ROAS channels","P09: Marketing Performance Attribution",3,"fde-ai,build",false
+"Ship attribution report with ROI analysis","Full attribution analysis report with channel breakdown and recommendations","P09: Marketing Performance Attribution",3,"fde-ai,ship",false
+"Ingest and clean box office scheduling data","Showtime, capacity, historical revenue, and pricing data pipeline","P10: Cinema Revenue Optimization and Pricing",2,"fde-ai,setup",false
+"Build demand forecasting model per screen/slot","Occupancy prediction model per showing, genre, day-part, and screen","P10: Cinema Revenue Optimization and Pricing",3,"fde-ai,build",false
+"Implement dynamic pricing optimizer","Constrained pricing optimizer maximizing revenue given demand forecast","P10: Cinema Revenue Optimization and Pricing",3,"fde-ai,build",false
+"Build pricing simulation environment","Monte Carlo simulator to test pricing strategies before deployment","P10: Cinema Revenue Optimization and Pricing",3,"fde-ai,build",false
+"Create revenue management API","Endpoint serving recommended prices per showing in real time","P10: Cinema Revenue Optimization and Pricing",3,"fde-ai,build",false
+"Build operator-facing pricing dashboard","Next.js dashboard with forecast, pricing recommendations, and revenue KPIs","P10: Cinema Revenue Optimization and Pricing",3,"fde-ai,build",false
+"Write revenue impact analysis report","Backtested revenue uplift report vs. static pricing baseline","P10: Cinema Revenue Optimization and Pricing",3,"fde-ai,ship",false
