@@ -150,3 +150,8 @@ temp/
 *.tmp
 *.bak
 *.orig
+
+
+# --- VSCODE ---
+
+training.code-workspace
