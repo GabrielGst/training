@@ -1,0 +1,4 @@
+# Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+

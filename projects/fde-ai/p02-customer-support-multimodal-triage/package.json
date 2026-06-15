@@ -1,0 +1,13 @@
+{
+  "name": "p02-customer-support-multimodal-triage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "echo 'TODO'",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}

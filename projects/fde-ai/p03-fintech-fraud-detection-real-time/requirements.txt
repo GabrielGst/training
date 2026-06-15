@@ -1,0 +1,4 @@
+# Fintech Fraud Detection Real-Time
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+

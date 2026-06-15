@@ -1,0 +1,4 @@
+# D-Wave Annealing + ML for Supply Chain Disruption Prediction
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+

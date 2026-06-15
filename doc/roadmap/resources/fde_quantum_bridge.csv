@@ -1,0 +1,283 @@
+bridge_id,project_id,project_name,skill_tool_id,skill_tool_name,skill_tool_category,quantum_modality,theory_or_engineering
+P01_SK01,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK01,Quantum State Representation (Hilbert Spaces),Skill,superconducting,theory
+P01_SK02,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK02,Quantum Measurement Theory (Born Rule),Skill,superconducting,theory
+P01_SK03,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK03,Quantum Decoherence & T1/T2 Relaxation,Skill,superconducting,theory
+P01_SK04,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK04,Quantum Gate Model & Clifford+T,Skill,superconducting,theory
+P01_SK05,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK05,Complex Vector Spaces & Tensor Products,Skill,superconducting,theory
+P01_SK06,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK06,Eigendecomposition & Spectral Theorem,Skill,superconducting,theory
+P01_SK07,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK07,Quantum Information Theory (von Neumann Entropy),Skill,superconducting,theory
+P01_SK08,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK08,Quantum Error Correction — Stabiliser Formalism,Skill,superconducting,theory
+P01_SK09,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK09,NISQ-Era Limitations & Error Mitigation,Skill,superconducting,hybrid
+P01_SK10,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK10,Variational Quantum Eigensolver (VQE) Algorithm,Skill,superconducting,hybrid
+P01_SK24,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK24,ML for Quantum Error Mitigation,Skill,superconducting,hybrid
+P01_SK25,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK25,Hybrid Classical-Quantum Loops,Skill,superconducting,engineering
+P01_SK26,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK26,PyTorch Production Patterns,Skill,superconducting,engineering
+P01_SK27,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK27,REST API Design & FastAPI,Skill,superconducting,engineering
+P01_SK32,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK32,SQL Data Modelling,Skill,superconducting,theory
+P01_SK33,P01,Quantum-Enhanced Drug Molecule Screening via VQE,SK33,Container Orchestration (Docker/Kubernetes),Skill,superconducting,engineering
+P01_TL01,P01,Quantum-Enhanced Drug Molecule Screening via VQE,TL01,Qiskit,Tool,superconducting,engineering
+P01_TL02,P01,Quantum-Enhanced Drug Molecule Screening via VQE,TL02,Qiskit Aer,Tool,superconducting,engineering
+P01_TL03,P01,Quantum-Enhanced Drug Molecule Screening via VQE,TL03,PyTorch,Tool,superconducting,engineering
+P01_TL04,P01,Quantum-Enhanced Drug Molecule Screening via VQE,TL04,FastAPI,Tool,superconducting,engineering
+P01_TL05,P01,Quantum-Enhanced Drug Molecule Screening via VQE,TL05,PostgreSQL,Tool,superconducting,engineering
+P01_TL06,P01,Quantum-Enhanced Drug Molecule Screening via VQE,TL06,AWS Braket,Tool,superconducting,engineering
+P01_TL07,P01,Quantum-Enhanced Drug Molecule Screening via VQE,TL07,Docker,Tool,superconducting,engineering
+P01_TL08,P01,Quantum-Enhanced Drug Molecule Screening via VQE,TL08,GitHub Actions,Tool,superconducting,engineering
+P02_SK01,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK01,Quantum State Representation (Hilbert Spaces),Skill,neutral-atom,theory
+P02_SK02,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK02,Quantum Measurement Theory (Born Rule),Skill,neutral-atom,theory
+P02_SK04,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK04,Quantum Gate Model & Clifford+T,Skill,neutral-atom,theory
+P02_SK11,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK11,Rydberg Atom Physics & Dipole Blockade,Skill,neutral-atom,theory
+P02_SK12,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK12,Optical Tweezer Trap Design & Manipulation,Skill,neutral-atom,theory
+P02_SK13,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK13,Laser Cooling (Doppler & Sub-Doppler),Skill,neutral-atom,theory
+P02_SK14,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK14,QAOA Algorithm & Circuit Design,Skill,neutral-atom,hybrid
+P02_SK15,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK15,Constraint Embedding for QUBO,Skill,neutral-atom,engineering
+P02_SK28,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK28,AI-Assisted Circuit Optimisation,Skill,neutral-atom,hybrid
+P02_SK29,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK29,Real-Time Inference Acceleration,Skill,neutral-atom,engineering
+P02_SK30,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK30,ML for Quantum Error Mitigation,Skill,neutral-atom,hybrid
+P02_SK31,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK31,Hybrid Classical-Quantum Loops,Skill,neutral-atom,theory
+P02_SK32,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK32,PyTorch Production Patterns,Skill,neutral-atom,theory
+P02_SK35,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK35,Container Orchestration (Docker/Kubernetes),Skill,neutral-atom,engineering
+P02_SK36,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK36,Distributed Systems & Caching,Skill,neutral-atom,engineering
+P02_SK37,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,SK37,Cache-Aware Algorithm Design,Skill,neutral-atom,engineering
+P02_TL09,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,TL09,Pulser SDK,Tool,neutral-atom,engineering
+P02_TL10,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,TL10,JAX,Tool,neutral-atom,engineering
+P02_TL04,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,TL04,FastAPI,Tool,neutral-atom,engineering
+P02_TL11,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,TL11,Redis,Tool,neutral-atom,engineering
+P02_TL05,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,TL05,PostgreSQL,Tool,neutral-atom,engineering
+P02_TL06,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,TL06,Docker,Tool,neutral-atom,engineering
+P02_TL07,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,TL07,GitHub Actions,Tool,neutral-atom,engineering
+P02_TL08,P02,Rydberg Neutral-Atom QAOA for Logistics Route Optimisation,TL08,AWS Braket,Tool,neutral-atom,engineering
+P03_SK01,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK01,Quantum State Representation (Hilbert Spaces),Skill,photonic,theory
+P03_SK02,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK02,Quantum Measurement Theory (Born Rule),Skill,photonic,theory
+P03_SK16,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK16,Photonic Quantum Optics (Coherent/Fock States),Skill,photonic,theory
+P03_SK17,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK17,Beam Splitter Unitaries & Hong-Ou-Mandel Effect,Skill,photonic,theory
+P03_SK18,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK18,Photon Indistinguishability & KLM Theorem,Skill,photonic,theory
+P03_SK19,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK19,Boson Sampling & Complexity Theory,Skill,photonic,theory
+P03_SK20,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK20,Quantum Fourier Transform & Phase Estimation,Skill,photonic,theory
+P03_SK21,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK21,Single-Photon Source Engineering,Skill,photonic,engineering
+P03_SK24,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK24,ML for Quantum Error Mitigation,Skill,photonic,hybrid
+P03_SK25,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK25,Hybrid Classical-Quantum Loops,Skill,photonic,engineering
+P03_SK26,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK26,PyTorch Production Patterns,Skill,photonic,engineering
+P03_SK27,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK27,REST API Design & FastAPI,Skill,photonic,engineering
+P03_SK32,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK32,Generative Models (VAE/Diffusion),Skill,photonic,theory
+P03_SK33,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),SK33,Vector Database Integration (Qdrant/Weaviate),Skill,photonic,engineering
+P03_TL12,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),TL12,Perceval SDK,Tool,photonic,engineering
+P03_TL10,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),TL10,JAX,Tool,photonic,engineering
+P03_TL04,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),TL04,FastAPI,Tool,photonic,engineering
+P03_TL13,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),TL13,LangChain,Tool,photonic,engineering
+P03_TL14,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),TL14,Qdrant,Tool,photonic,engineering
+P03_TL15,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),TL15,Docker,Tool,photonic,engineering
+P03_TL04,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),TL04,GitHub Actions,Tool,photonic,engineering
+P03_TL06,P03,Photonic Quantum Sampling for Materials Discovery (Boson Sampling),TL06,CUDA-Q,Tool,photonic,engineering
+P04_SK01,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK01,Quantum State Representation (Hilbert Spaces),Skill,trapped-ion,theory
+P04_SK02,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK02,Quantum Measurement Theory (Born Rule),Skill,trapped-ion,theory
+P04_SK03,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK03,Quantum Decoherence & T1/T2 Relaxation,Skill,trapped-ion,theory
+P04_SK04,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK04,Quantum Gate Model & Clifford+T,Skill,trapped-ion,theory
+P04_SK22,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK22,Trapped-Ion Physics & Paul/Penning Traps,Skill,trapped-ion,theory
+P04_SK23,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK23,Mølmer–Sørensen Gate Mechanism,Skill,trapped-ion,theory
+P04_SK24,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK24,ML for Quantum Error Mitigation,Skill,trapped-ion,hybrid
+P04_SK25,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK25,Hybrid Classical-Quantum Loops,Skill,trapped-ion,engineering
+P04_SK26,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK26,PyTorch Production Patterns,Skill,trapped-ion,engineering
+P04_SK27,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK27,REST API Design & FastAPI,Skill,trapped-ion,engineering
+P04_SK32,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK32,Variational Quantum Eigensolver (VQE) Algorithm,Skill,trapped-ion,theory
+P04_SK33,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK33,Constraint Embedding for QUBO,Skill,trapped-ion,engineering
+P04_SK34,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,SK34,Financial Domain Integration,Skill,trapped-ion,engineering
+P04_TL16,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL16,TKET,Tool,trapped-ion,engineering
+P04_TL17,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL17,Pytket,Tool,trapped-ion,engineering
+P04_TL01,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL01,Qiskit,Tool,trapped-ion,engineering
+P04_TL10,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL10,JAX,Tool,trapped-ion,engineering
+P04_TL04,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL04,FastAPI,Tool,trapped-ion,engineering
+P04_TL05,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL05,PostgreSQL,Tool,trapped-ion,engineering
+P04_TL06,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL06,Docker,Tool,trapped-ion,engineering
+P04_TL18,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL18,Bloomberg API,Tool,trapped-ion,engineering
+P04_TL07,P04,Trapped-Ion Quantum Simulation for Financial Portfolio Optimisation,TL07,Kubernetes,Tool,trapped-ion,engineering
+P05_SK01,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK01,Quantum State Representation (Hilbert Spaces),Skill,annealing,theory
+P05_SK02,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK02,Quantum Measurement Theory (Born Rule),Skill,annealing,theory
+P05_SK29,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK29,Adiabatic Theorem & Quantum Tunnelling,Skill,annealing,engineering
+P05_SK30,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK30,QUBO & Ising Model Formulation,Skill,annealing,hybrid
+P05_SK31,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK31,Spin Glass Physics,Skill,annealing,theory
+P05_SK42,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK42,AI-Assisted Circuit Optimisation,Skill,annealing,engineering
+P05_SK43,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK43,Prompt Engineering & Chain-of-Thought,Skill,annealing,engineering
+P05_SK44,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK44,Retrieval-Augmented Generation (RAG) Architecture,Skill,annealing,engineering
+P05_SK32,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK32,ML for Quantum Error Mitigation,Skill,annealing,theory
+P05_SK33,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK33,REST API Design & FastAPI,Skill,annealing,engineering
+P05_SK34,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK34,Container Orchestration (Docker/Kubernetes),Skill,annealing,engineering
+P05_SK45,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK45,Supply Chain Domain Knowledge,Skill,annealing,engineering
+P05_SK46,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK46,Graph Data Structures & Algorithms,Skill,annealing,engineering
+P05_SK47,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,SK47,LLM Output Parsing & Safety,Skill,annealing,engineering
+P05_TL19,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL19,Ocean SDK,Tool,annealing,engineering
+P05_TL10,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL10,JAX,Tool,annealing,engineering
+P05_TL20,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL20,Scikit-learn,Tool,annealing,engineering
+P05_TL13,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL13,LangChain,Tool,annealing,engineering
+P05_TL04,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL04,FastAPI,Tool,annealing,engineering
+P05_TL05,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL05,PostgreSQL,Tool,annealing,engineering
+P05_TL14,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL14,Qdrant,Tool,annealing,engineering
+P05_TL06,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL06,Docker,Tool,annealing,engineering
+P05_TL07,P05,D-Wave Annealing + ML for Supply Chain Disruption Prediction,TL07,GitHub Actions,Tool,annealing,engineering
+P06_SK01,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK01,Quantum State Representation (Hilbert Spaces),Skill,superconducting,theory
+P06_SK02,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK02,Quantum Measurement Theory (Born Rule),Skill,superconducting,theory
+P06_SK03,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK03,Quantum Decoherence & T1/T2 Relaxation,Skill,superconducting,theory
+P06_SK04,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK04,Quantum Gate Model & Clifford+T,Skill,superconducting,theory
+P06_SK05,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK05,Complex Vector Spaces & Tensor Products,Skill,superconducting,theory
+P06_SK06,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK06,Eigendecomposition & Spectral Theorem,Skill,superconducting,theory
+P06_SK24,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK24,ML for Quantum Error Mitigation,Skill,superconducting,hybrid
+P06_SK25,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK25,Hybrid Classical-Quantum Loops,Skill,superconducting,engineering
+P06_SK26,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK26,PyTorch Production Patterns,Skill,superconducting,engineering
+P06_SK27,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK27,REST API Design & FastAPI,Skill,superconducting,engineering
+P06_SK48,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK48,Reinforcement Learning for Hardware Control,Skill,superconducting,engineering
+P06_SK49,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK49,Randomised Benchmarking Protocol Design,Skill,superconducting,engineering
+P06_SK50,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK50,Distributed ML Training (Ray/Spark),Skill,superconducting,engineering
+P06_SK51,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK51,MLOps & Continuous Retraining,Skill,superconducting,engineering
+P06_SK52,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,SK52,Prometheus/Grafana Monitoring,Skill,superconducting,engineering
+P06_TL01,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL01,Qiskit,Tool,superconducting,engineering
+P06_TL02,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL02,Qiskit Aer,Tool,superconducting,engineering
+P06_TL21,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL21,Qiskit Pulse,Tool,superconducting,engineering
+P06_TL10,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL10,PyTorch,Tool,superconducting,engineering
+P06_TL22,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL22,Ray,Tool,superconducting,engineering
+P06_TL23,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL23,Prometheus,Tool,superconducting,engineering
+P06_TL24,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL24,Grafana,Tool,superconducting,engineering
+P06_TL04,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL04,FastAPI,Tool,superconducting,engineering
+P06_TL06,P06,AI-Assisted Quantum Circuit Calibration for Multi-Qubit Gates,TL06,Docker,Tool,superconducting,engineering
+P07_SK01,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK01,Quantum State Representation (Hilbert Spaces),Skill,classical-only,theory
+P07_SK42,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK42,Prompt Engineering & Chain-of-Thought,Skill,classical-only,engineering
+P07_SK43,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK43,Retrieval-Augmented Generation (RAG) Architecture,Skill,classical-only,engineering
+P07_SK44,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK44,Adiabatic Theorem & Quantum Tunnelling,Skill,classical-only,engineering
+P07_SK32,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK32,ML for Quantum Error Mitigation,Skill,classical-only,theory
+P07_SK33,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK33,Hybrid Classical-Quantum Loops,Skill,classical-only,engineering
+P07_SK34,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK34,REST API Design & FastAPI,Skill,classical-only,engineering
+P07_SK45,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK45,LLM Output Parsing & Safety,Skill,classical-only,engineering
+P07_SK46,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK46,Supply Chain Domain Knowledge,Skill,classical-only,engineering
+P07_SK47,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK47,Graph Data Structures & Algorithms,Skill,classical-only,engineering
+P07_SK53,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK53,NIST PQC Standards (Kyber/Dilithium),Skill,classical-only,engineering
+P07_SK54,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK54,Cryptographic Protocol Design,Skill,classical-only,engineering
+P07_SK55,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK55,Key Lifecycle Management,Skill,classical-only,hybrid
+P07_SK56,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,SK56,Hardware Security Module (HSM) Integration,Skill,classical-only,hybrid
+P07_TL25,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,TL25,liboqs,Tool,classical-only,engineering
+P07_TL04,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,TL04,FastAPI,Tool,classical-only,engineering
+P07_TL05,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,TL05,PostgreSQL,Tool,classical-only,engineering
+P07_TL26,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,TL26,Mistral API,Tool,classical-only,engineering
+P07_TL13,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,TL13,LangChain,Tool,classical-only,engineering
+P07_TL27,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,TL27,Vault,Tool,classical-only,engineering
+P07_TL06,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,TL06,Docker,Tool,classical-only,engineering
+P07_TL18,P07,Post-Quantum Cryptography Migration with AI-Powered Key Management,TL18,Kubernetes,Tool,classical-only,engineering
+P08_SK01,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK01,Quantum State Representation (Hilbert Spaces),Skill,superconducting,theory
+P08_SK02,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK02,Quantum Measurement Theory (Born Rule),Skill,superconducting,theory
+P08_SK03,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK03,Quantum Decoherence & T1/T2 Relaxation,Skill,superconducting,theory
+P08_SK04,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK04,Quantum Gate Model & Clifford+T,Skill,superconducting,theory
+P08_SK05,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK05,Complex Vector Spaces & Tensor Products,Skill,superconducting,theory
+P08_SK06,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK06,Eigendecomposition & Spectral Theorem,Skill,superconducting,theory
+P08_SK07,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK07,Quantum Information Theory (von Neumann Entropy),Skill,superconducting,theory
+P08_SK08,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK08,Quantum Error Correction — Stabiliser Formalism,Skill,superconducting,theory
+P08_SK09,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK09,NISQ-Era Limitations & Error Mitigation,Skill,superconducting,hybrid
+P08_SK24,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK24,ML for Quantum Error Mitigation,Skill,superconducting,hybrid
+P08_SK25,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK25,Hybrid Classical-Quantum Loops,Skill,superconducting,engineering
+P08_SK26,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK26,PyTorch Production Patterns,Skill,superconducting,engineering
+P08_SK27,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK27,REST API Design & FastAPI,Skill,superconducting,engineering
+P08_SK32,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK32,Variational Quantum Machine Learning (QML),Skill,superconducting,theory
+P08_SK33,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK33,Angle Encoding for Feature Maps,Skill,superconducting,engineering
+P08_SK34,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,SK34,Barren Plateaus & Optimisation Challenges,Skill,superconducting,engineering
+P08_TL01,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL01,Qiskit,Tool,superconducting,engineering
+P08_TL16,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL16,TKET,Tool,superconducting,engineering
+P08_TL10,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL10,PyTorch,Tool,superconducting,engineering
+P08_TL28,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL28,ONNX,Tool,superconducting,engineering
+P08_TL29,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL29,TensorFlow Lite,Tool,superconducting,engineering
+P08_TL04,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL04,FastAPI,Tool,superconducting,engineering
+P08_TL30,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL30,InfluxDB,Tool,superconducting,engineering
+P08_TL06,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL06,Docker,Tool,superconducting,engineering
+P08_TL18,P08,Variational Quantum Classifier for Anomaly Detection in Sensor Networks,TL18,Kubernetes,Tool,superconducting,engineering
+P09_SK01,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK01,Quantum State Representation (Hilbert Spaces),Skill,photonic,theory
+P09_SK02,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK02,Quantum Measurement Theory (Born Rule),Skill,photonic,theory
+P09_SK16,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK16,Photonic Quantum Optics (Coherent/Fock States),Skill,photonic,theory
+P09_SK17,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK17,Beam Splitter Unitaries & Hong-Ou-Mandel Effect,Skill,photonic,theory
+P09_SK18,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK18,Photon Indistinguishability & KLM Theorem,Skill,photonic,theory
+P09_SK19,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK19,Boson Sampling & Complexity Theory,Skill,photonic,theory
+P09_SK20,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK20,Quantum Fourier Transform & Phase Estimation,Skill,photonic,theory
+P09_SK21,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK21,Single-Photon Source Engineering,Skill,photonic,engineering
+P09_SK60,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK60,Homomorphic Encryption Theory,Skill,photonic,hybrid
+P09_SK61,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK61,Secure Multi-Party Computation (MPC),Skill,photonic,hybrid
+P09_SK62,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK62,Privacy-Preserving Quantum Protocols,Skill,photonic,engineering
+P09_SK24,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK24,ML for Quantum Error Mitigation,Skill,photonic,hybrid
+P09_SK25,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK25,Hybrid Classical-Quantum Loops,Skill,photonic,engineering
+P09_SK26,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK26,PyTorch Production Patterns,Skill,photonic,engineering
+P09_SK27,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK27,REST API Design & FastAPI,Skill,photonic,engineering
+P09_SK32,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK32,Cryptographic Circuit Design,Skill,photonic,theory
+P09_SK33,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK33,Homomorphic Encryption Implementation,Skill,photonic,engineering
+P09_SK34,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,SK34,Regulatory Compliance (FDA 21 CFR Part 11),Skill,photonic,engineering
+P09_TL12,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,TL12,Perceval SDK,Tool,photonic,engineering
+P09_TL31,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,TL31,Microsoft SEAL,Tool,photonic,engineering
+P09_TL32,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,TL32,RDKit,Tool,photonic,engineering
+P09_TL10,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,TL10,PyTorch,Tool,photonic,engineering
+P09_TL04,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,TL04,FastAPI,Tool,photonic,engineering
+P09_TL06,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,TL06,Docker,Tool,photonic,engineering
+P09_TL33,P09,Secure Delegated Quantum Computation (SDQC) for Privacy-Preserving Drug Discovery,TL33,TensorFlow Encrypted,Tool,photonic,engineering
+P10_SK01,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK01,Quantum State Representation (Hilbert Spaces),Skill,superconducting,theory
+P10_SK02,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK02,Quantum Measurement Theory (Born Rule),Skill,superconducting,theory
+P10_SK04,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK04,Quantum Gate Model & Clifford+T,Skill,superconducting,theory
+P10_SK05,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK05,Complex Vector Spaces & Tensor Products,Skill,superconducting,theory
+P10_SK06,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK06,Eigendecomposition & Spectral Theorem,Skill,superconducting,theory
+P10_SK65,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK65,Tensor Network Theory (MPS/PEPS/MERA),Skill,superconducting,engineering
+P10_SK66,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK66,Graph Neural Networks (GNNs) for Quantum Circuits,Skill,superconducting,engineering
+P10_SK67,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK67,Classical Tensor Contraction & opt_einsum,Skill,superconducting,engineering
+P10_SK24,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK24,ML for Quantum Error Mitigation,Skill,superconducting,hybrid
+P10_SK25,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK25,Hybrid Classical-Quantum Loops,Skill,superconducting,engineering
+P10_SK26,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK26,PyTorch Production Patterns,Skill,superconducting,engineering
+P10_SK27,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK27,REST API Design & FastAPI,Skill,superconducting,engineering
+P10_SK32,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK32,Variational Quantum Eigensolver (VQE) Algorithm,Skill,superconducting,theory
+P10_SK33,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK33,Constraint Embedding for QUBO,Skill,superconducting,engineering
+P10_SK34,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK34,Distributed Systems & Caching,Skill,superconducting,engineering
+P10_SK68,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK68,Quantum Circuit Benchmarking & Metrics,Skill,superconducting,engineering
+P10_SK69,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,SK69,High-Performance Computing (HPC) Optimization,Skill,superconducting,engineering
+P10_TL34,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,TL34,QuTiP,Tool,superconducting,engineering
+P10_TL10,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,TL10,JAX,Tool,superconducting,engineering
+P10_TL35,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,TL35,PyTorch Geometric,Tool,superconducting,engineering
+P10_TL01,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,TL01,Qiskit,Tool,superconducting,engineering
+P10_TL36,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,TL36,Flask,Tool,superconducting,engineering
+P10_TL06,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,TL06,Docker,Tool,superconducting,engineering
+P10_TL18,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,TL18,Kubernetes,Tool,superconducting,engineering
+P10_TL07,P10,Tensor Network Classical Simulation + ML for Quantum Circuit Benchmarking,TL07,GitHub Actions,Tool,superconducting,engineering
+P11_SK01,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK01,Quantum State Representation (Hilbert Spaces),Skill,annealing,theory
+P11_SK02,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK02,Quantum Measurement Theory (Born Rule),Skill,annealing,theory
+P11_SK29,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK29,Adiabatic Theorem & Quantum Tunnelling,Skill,annealing,engineering
+P11_SK30,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK30,QUBO & Ising Model Formulation,Skill,annealing,hybrid
+P11_SK31,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK31,Spin Glass Physics,Skill,annealing,theory
+P11_SK42,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK42,Prompt Engineering & Chain-of-Thought,Skill,annealing,engineering
+P11_SK43,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK43,Retrieval-Augmented Generation (RAG) Architecture,Skill,annealing,engineering
+P11_SK44,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK44,Revenue Management & Dynamic Pricing Theory,Skill,annealing,engineering
+P11_SK24,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK24,ML for Quantum Error Mitigation,Skill,annealing,hybrid
+P11_SK25,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK25,Hybrid Classical-Quantum Loops,Skill,annealing,engineering
+P11_SK26,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK26,PyTorch Production Patterns,Skill,annealing,engineering
+P11_SK27,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK27,REST API Design & FastAPI,Skill,annealing,engineering
+P11_SK32,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK32,LSTM Time-Series Forecasting,Skill,annealing,theory
+P11_SK33,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,SK33,Inventory Management & Constraint Optimization,Skill,annealing,engineering
+P11_TL19,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL19,Ocean SDK,Tool,annealing,engineering
+P11_TL10,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL10,JAX,Tool,annealing,engineering
+P11_TL13,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL13,LangChain,Tool,annealing,engineering
+P11_TL04,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL04,FastAPI,Tool,annealing,engineering
+P11_TL05,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL05,PostgreSQL,Tool,annealing,engineering
+P11_TL11,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL11,Redis,Tool,annealing,engineering
+P11_TL37,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL37,Cinema POS API,Tool,annealing,engineering
+P11_TL06,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL06,Docker,Tool,annealing,engineering
+P11_TL07,P11,Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation,TL07,GitHub Actions,Tool,annealing,engineering
+P12_SK32,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK32,REST API Design & FastAPI,Skill,classical-only,theory
+P12_SK33,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK33,Container Orchestration (Docker/Kubernetes),Skill,classical-only,engineering
+P12_SK34,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK34,SQL Data Modelling,Skill,classical-only,engineering
+P12_SK42,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK42,Prompt Engineering & Chain-of-Thought,Skill,classical-only,engineering
+P12_SK43,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK43,Retrieval-Augmented Generation (RAG) Architecture,Skill,classical-only,engineering
+P12_SK44,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK44,LLM Output Parsing & Safety,Skill,classical-only,engineering
+P12_SK45,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK45,Semantic Search & Vector Embeddings,Skill,classical-only,engineering
+P12_SK46,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK46,Technical Documentation & Developer Experience,Skill,classical-only,engineering
+P12_SK47,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK47,Full-Stack Web Development (React/Next.js),Skill,classical-only,engineering
+P12_SK72,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK72,Benchmark Design & Metrics,Skill,classical-only,engineering
+P12_SK73,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK73,Multi-SDK Integration & Transpilation,Skill,classical-only,engineering
+P12_SK74,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,SK74,Community & Open-Source Engagement,Skill,classical-only,engineering
+P12_TL01,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL01,Qiskit,Tool,classical-only,engineering
+P12_TL38,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL38,Cirq,Tool,classical-only,engineering
+P12_TL39,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL39,PennyLane,Tool,classical-only,engineering
+P12_TL12,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL12,Perceval,Tool,classical-only,engineering
+P12_TL26,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL26,Mistral API,Tool,classical-only,engineering
+P12_TL13,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL13,LangChain,Tool,classical-only,engineering
+P12_TL14,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL14,FastAPI,Tool,classical-only,engineering
+P12_TL05,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL05,PostgreSQL,Tool,classical-only,engineering
+P12_TL40,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL40,Qdrant,Tool,classical-only,engineering
+P12_TL06,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL06,React/Next.js,Tool,classical-only,engineering
+P12_TL07,P12,Multi-Modality Quantum Benchmark Aggregator & LLM-Powered Circuit Explainer,TL07,Docker,Tool,classical-only,engineering

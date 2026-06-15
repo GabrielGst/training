@@ -1,0 +1,198 @@
+bridge_id,project_id,project_name,skill_tool_id,skill_tool_name,skill_tool_category
+P01_SK01,P01,VC Due Diligence AI Analyst,SK01,RAG Architecture Design,AI/ML & LLM
+P01_SK02,P01,VC Due Diligence AI Analyst,SK02,Prompt Engineering and System Design,AI/ML & LLM
+P01_SK03,P01,VC Due Diligence AI Analyst,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P01_SK04,P01,VC Due Diligence AI Analyst,SK04,Requirements Discovery and Scoping Workshops,Product & Business
+P01_SK05,P01,VC Due Diligence AI Analyst,SK05,Vector Database and Semantic Search,Data & Infra
+P01_SK06,P01,VC Due Diligence AI Analyst,SK06,Full-Stack Web API Development,Full-Stack & APIs
+P01_SK07,P01,VC Due Diligence AI Analyst,SK07,Data Pipeline Engineering and ETL,Data & Infra
+P01_SK12,P01,VC Due Diligence AI Analyst,SK12,Enterprise Integration Patterns,Enterprise Integration
+P01_SK14,P01,VC Due Diligence AI Analyst,SK14,Financial Modeling and ROI Analysis,Product & Business
+P02_SK01,P02,Customer Support Multimodal Triage,SK01,RAG Architecture Design,AI/ML & LLM
+P02_SK02,P02,Customer Support Multimodal Triage,SK02,Prompt Engineering and System Design,AI/ML & LLM
+P02_SK03,P02,Customer Support Multimodal Triage,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P02_SK08,P02,Customer Support Multimodal Triage,SK08,Multimodal AI and Audio/Video Processing,AI/ML & LLM
+P02_SK09,P02,Customer Support Multimodal Triage,SK09,Classification and Few-Shot Learning,AI/ML & LLM
+P02_SK10,P02,Customer Support Multimodal Triage,SK10,Sentiment Analysis and NLP,AI/ML & LLM
+P02_SK12,P02,Customer Support Multimodal Triage,SK12,Enterprise Integration Patterns,Enterprise Integration
+P02_SK13,P02,Customer Support Multimodal Triage,SK13,Observability and Monitoring,MLOps/LLMOps
+P02_SK15,P02,Customer Support Multimodal Triage,SK15,Cloud-Native Deployment and Containerization,Data & Infra
+P02_SK16,P02,Customer Support Multimodal Triage,SK16,Stakeholder Discovery and Change Adoption,Product & Business
+P03_SK02,P03,Fintech Fraud Detection Real-Time,SK02,Prompt Engineering and System Design,AI/ML & LLM
+P03_SK03,P03,Fintech Fraud Detection Real-Time,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P03_SK06,P03,Fintech Fraud Detection Real-Time,SK06,Full-Stack Web API Development,Full-Stack & APIs
+P03_SK11,P03,Fintech Fraud Detection Real-Time,SK11,Model Explainability and SHAP,MLOps/LLMOps
+P03_SK13,P03,Fintech Fraud Detection Real-Time,SK13,Observability and Monitoring,MLOps/LLMOps
+P03_SK14,P03,Fintech Fraud Detection Real-Time,SK14,Financial Modeling and ROI Analysis,Product & Business
+P03_SK17,P03,Fintech Fraud Detection Real-Time,SK17,Compliance and Data Privacy Frameworks,Enterprise Integration
+P03_SK18,P03,Fintech Fraud Detection Real-Time,SK18,Performance Tuning and Latency Optimization,Data & Infra
+P03_SK19,P03,Fintech Fraud Detection Real-Time,SK19,Schema Design and Relational Data Modeling,Data & Infra
+P04_SK03,P04,Supply Chain Demand Forecasting,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P04_SK06,P04,Supply Chain Demand Forecasting,SK06,Full-Stack Web API Development,Full-Stack & APIs
+P04_SK07,P04,Supply Chain Demand Forecasting,SK07,Data Pipeline Engineering and ETL,Data & Infra
+P04_SK13,P04,Supply Chain Demand Forecasting,SK13,Observability and Monitoring,MLOps/LLMOps
+P04_SK14,P04,Supply Chain Demand Forecasting,SK14,Financial Modeling and ROI Analysis,Product & Business
+P04_SK15,P04,Supply Chain Demand Forecasting,SK15,Cloud-Native Deployment and Containerization,Data & Infra
+P04_SK20,P04,Supply Chain Demand Forecasting,SK20,Time-Series Forecasting and Seasonality,AI/ML & LLM
+P04_SK21,P04,Supply Chain Demand Forecasting,SK21,A/B Testing and Experimentation,Product & Business
+P05_SK02,P05,Sales GTM Playbook and Automation,SK02,Prompt Engineering and System Design,AI/ML & LLM
+P05_SK03,P05,Sales GTM Playbook and Automation,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P05_SK04,P05,Sales GTM Playbook and Automation,SK04,Requirements Discovery and Scoping Workshops,Product & Business
+P05_SK05,P05,Sales GTM Playbook and Automation,SK05,Vector Database and Semantic Search,Data & Infra
+P05_SK06,P05,Sales GTM Playbook and Automation,SK06,Full-Stack Web API Development,Full-Stack & APIs
+P05_SK07,P05,Sales GTM Playbook and Automation,SK07,Data Pipeline Engineering and ETL,Data & Infra
+P05_SK13,P05,Sales GTM Playbook and Automation,SK13,Observability and Monitoring,MLOps/LLMOps
+P05_SK16,P05,Sales GTM Playbook and Automation,SK16,Stakeholder Discovery and Change Adoption,Product & Business
+P05_SK21,P05,Sales GTM Playbook and Automation,SK21,A/B Testing and Experimentation,Product & Business
+P05_SK22,P05,Sales GTM Playbook and Automation,SK22,User Research and Product Validation,Product & Business
+P05_SK23,P05,Sales GTM Playbook and Automation,SK23,Sales Enablement and Go-To-Market,Product & Business
+P06_SK03,P06,Engineering Productivity AI Copilot,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P06_SK05,P06,Engineering Productivity AI Copilot,SK05,Vector Database and Semantic Search,Data & Infra
+P06_SK06,P06,Engineering Productivity AI Copilot,SK06,Full-Stack Web API Development,Full-Stack & APIs
+P06_SK08,P06,Engineering Productivity AI Copilot,SK08,Multimodal AI and Audio/Video Processing,AI/ML & LLM
+P06_SK11,P06,Engineering Productivity AI Copilot,SK11,Model Explainability and SHAP,MLOps/LLMOps
+P06_SK13,P06,Engineering Productivity AI Copilot,SK13,Observability and Monitoring,MLOps/LLMOps
+P06_SK24,P06,Engineering Productivity AI Copilot,SK24,Fine-Tuning and Custom Model Adaptation,MLOps/LLMOps
+P06_SK25,P06,Engineering Productivity AI Copilot,SK25,IDE and Developer Tooling,Full-Stack & APIs
+P06_SK26,P06,Engineering Productivity AI Copilot,SK26,Code Generation and Program Synthesis,AI/ML & LLM
+P07_SK03,P07,Field Service Optimization and Routing,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P07_SK06,P07,Field Service Optimization and Routing,SK06,Full-Stack Web API Development,Full-Stack & APIs
+P07_SK07,P07,Field Service Optimization and Routing,SK07,Data Pipeline Engineering and ETL,Data & Infra
+P07_SK13,P07,Field Service Optimization and Routing,SK13,Observability and Monitoring,MLOps/LLMOps
+P07_SK17,P07,Field Service Optimization and Routing,SK17,Compliance and Data Privacy Frameworks,Enterprise Integration
+P07_SK18,P07,Field Service Optimization and Routing,SK18,Performance Tuning and Latency Optimization,Data & Infra
+P07_SK27,P07,Field Service Optimization and Routing,SK27,Spatial Data and Geolocation,Data & Infra
+P07_SK28,P07,Field Service Optimization and Routing,SK28,Operations Research and Optimization,AI/ML & LLM
+P07_SK29,P07,Field Service Optimization and Routing,SK29,Mobile App Deployment and Cross-Platform Development,Full-Stack & APIs
+P08_SK03,P08,Healthcare Patient Outcome Prediction,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P08_SK08,P08,Healthcare Patient Outcome Prediction,SK08,Multimodal AI and Audio/Video Processing,AI/ML & LLM
+P08_SK09,P08,Healthcare Patient Outcome Prediction,SK09,Classification and Few-Shot Learning,AI/ML & LLM
+P08_SK11,P08,Healthcare Patient Outcome Prediction,SK11,Model Explainability and SHAP,MLOps/LLMOps
+P08_SK13,P08,Healthcare Patient Outcome Prediction,SK13,Observability and Monitoring,MLOps/LLMOps
+P08_SK17,P08,Healthcare Patient Outcome Prediction,SK17,Compliance and Data Privacy Frameworks,Enterprise Integration
+P08_SK18,P08,Healthcare Patient Outcome Prediction,SK18,Performance Tuning and Latency Optimization,Data & Infra
+P08_SK30,P08,Healthcare Patient Outcome Prediction,SK30,Healthcare Data Integration and Clinical NLP,Enterprise Integration
+P08_SK31,P08,Healthcare Patient Outcome Prediction,SK31,Regulatory Compliance and Audit Trails,Enterprise Integration
+P09_SK02,P09,Marketing Performance Attribution,SK02,Prompt Engineering and System Design,AI/ML & LLM
+P09_SK04,P09,Marketing Performance Attribution,SK04,Requirements Discovery and Scoping Workshops,Product & Business
+P09_SK06,P09,Marketing Performance Attribution,SK06,Full-Stack Web API Development,Full-Stack & APIs
+P09_SK07,P09,Marketing Performance Attribution,SK07,Data Pipeline Engineering and ETL,Data & Infra
+P09_SK13,P09,Marketing Performance Attribution,SK13,Observability and Monitoring,MLOps/LLMOps
+P09_SK15,P09,Marketing Performance Attribution,SK15,Cloud-Native Deployment and Containerization,Data & Infra
+P09_SK20,P09,Marketing Performance Attribution,SK20,Time-Series Forecasting and Seasonality,AI/ML & LLM
+P09_SK21,P09,Marketing Performance Attribution,SK21,A/B Testing and Experimentation,Product & Business
+P09_SK32,P09,Marketing Performance Attribution,SK32,Marketing Analytics and Attribution,Product & Business
+P09_SK33,P09,Marketing Performance Attribution,SK33,Executive Reporting and Data Storytelling,Product & Business
+P10_SK02,P10,Cinema Revenue Optimization and Pricing,SK02,Prompt Engineering and System Design,AI/ML & LLM
+P10_SK03,P10,Cinema Revenue Optimization and Pricing,SK03,LLM Integration and Orchestration,AI/ML & LLM
+P10_SK04,P10,Cinema Revenue Optimization and Pricing,SK04,Requirements Discovery and Scoping Workshops,Product & Business
+P10_SK06,P10,Cinema Revenue Optimization and Pricing,SK06,Full-Stack Web API Development,Full-Stack & APIs
+P10_SK07,P10,Cinema Revenue Optimization and Pricing,SK07,Data Pipeline Engineering and ETL,Data & Infra
+P10_SK14,P10,Cinema Revenue Optimization and Pricing,SK14,Financial Modeling and ROI Analysis,Product & Business
+P10_SK20,P10,Cinema Revenue Optimization and Pricing,SK20,Time-Series Forecasting and Seasonality,AI/ML & LLM
+P10_SK21,P10,Cinema Revenue Optimization and Pricing,SK21,A/B Testing and Experimentation,Product & Business
+P10_SK22,P10,Cinema Revenue Optimization and Pricing,SK22,User Research and Product Validation,Product & Business
+P10_SK34,P10,Cinema Revenue Optimization and Pricing,SK34,Revenue Management and Pricing Strategy,Product & Business
+P10_SK35,P10,Cinema Revenue Optimization and Pricing,SK35,Business Model Innovation,Product & Business
+P01_TL01,P01,VC Due Diligence AI Analyst,TL01,LangChain,AI/ML & LLM
+P01_TL02,P01,VC Due Diligence AI Analyst,TL02,Mistral API,AI/ML & LLM
+P01_TL03,P01,VC Due Diligence AI Analyst,TL03,pgvector,Data & Infra
+P01_TL04,P01,VC Due Diligence AI Analyst,TL04,Postgres,Data & Infra
+P01_TL05,P01,VC Due Diligence AI Analyst,TL05,FastAPI,Full-Stack & APIs
+P01_TL08,P01,VC Due Diligence AI Analyst,TL08,AWS Lambda,Data & Infra
+P01_TL09,P01,VC Due Diligence AI Analyst,TL09,Next.js,Full-Stack & APIs
+P01_TL12,P01,VC Due Diligence AI Analyst,TL12,S3,Data & Infra
+P01_TL14,P01,VC Due Diligence AI Analyst,TL14,React,Full-Stack & APIs
+P01_TL32,P01,VC Due Diligence AI Analyst,TL32,Pinecone,Data & Infra
+P01_TL26,P01,VC Due Diligence AI Analyst,TL26,GitHub Actions,MLOps/LLMOps
+P02_TL01,P02,Customer Support Multimodal Triage,TL01,LangChain,AI/ML & LLM
+P02_TL02,P02,Customer Support Multimodal Triage,TL02,Mistral API,AI/ML & LLM
+P02_TL07,P02,Customer Support Multimodal Triage,TL07,Whisper,AI/ML & LLM
+P02_TL10,P02,Customer Support Multimodal Triage,TL10,Qdrant,Data & Infra
+P02_TL11,P02,Customer Support Multimodal Triage,TL11,MongoDB,Data & Infra
+P02_TL13,P02,Customer Support Multimodal Triage,TL13,Express.js,Full-Stack & APIs
+P02_TL15,P02,Customer Support Multimodal Triage,TL15,Docker,Data & Infra
+P02_TL16,P02,Customer Support Multimodal Triage,TL16,GCP Cloud Run,Data & Infra
+P02_TL17,P02,Customer Support Multimodal Triage,TL17,Pub/Sub,Data & Infra
+P02_TL24,P02,Customer Support Multimodal Triage,TL24,Grafana,MLOps/LLMOps
+P02_TL33,P02,Customer Support Multimodal Triage,TL33,Zendesk API,Enterprise Integration
+P03_TL18,P03,Fintech Fraud Detection Real-Time,TL18,Kafka,Data & Infra
+P03_TL19,P03,Fintech Fraud Detection Real-Time,TL19,Faust,Data & Infra
+P03_TL20,P03,Fintech Fraud Detection Real-Time,TL20,XGBoost,AI/ML & LLM
+P03_TL22,P03,Fintech Fraud Detection Real-Time,TL22,ONNX Runtime,MLOps/LLMOps
+P03_TL23,P03,Fintech Fraud Detection Real-Time,TL23,Redis,Data & Infra
+P03_TL24,P03,Fintech Fraud Detection Real-Time,TL24,Grafana,MLOps/LLMOps
+P03_TL25,P03,Fintech Fraud Detection Real-Time,TL25,PagerDuty,MLOps/LLMOps
+P03_TL27,P03,Fintech Fraud Detection Real-Time,TL27,dbt,Data & Infra
+P03_TL28,P03,Fintech Fraud Detection Real-Time,TL28,SHAP,MLOps/LLMOps
+P03_TL04,P03,Fintech Fraud Detection Real-Time,TL04,Postgres,Data & Infra
+P04_TL06,P04,Supply Chain Demand Forecasting,TL06,Flask,Full-Stack & APIs
+P04_TL34,P04,Supply Chain Demand Forecasting,TL34,Prophet,AI/ML & LLM
+P04_TL35,P04,Supply Chain Demand Forecasting,TL35,PyTorch,AI/ML & LLM
+P04_TL04,P04,Supply Chain Demand Forecasting,TL04,Postgres,Data & Infra
+P04_TL12,P04,Supply Chain Demand Forecasting,TL12,S3,Data & Infra
+P04_TL37,P04,Supply Chain Demand Forecasting,TL37,Looker,Product & Business
+P04_TL26,P04,Supply Chain Demand Forecasting,TL26,GitHub Actions,MLOps/LLMOps
+P04_TL27,P04,Supply Chain Demand Forecasting,TL27,dbt,Data & Infra
+P05_TL01,P05,Sales GTM Playbook and Automation,TL01,LangChain,AI/ML & LLM
+P05_TL02,P05,Sales GTM Playbook and Automation,TL02,Mistral API,AI/ML & LLM
+P05_TL04,P05,Sales GTM Playbook and Automation,TL04,Postgres,Data & Infra
+P05_TL05,P05,Sales GTM Playbook and Automation,TL05,FastAPI,Full-Stack & APIs
+P05_TL09,P05,Sales GTM Playbook and Automation,TL09,Next.js,Full-Stack & APIs
+P05_TL12,P05,Sales GTM Playbook and Automation,TL12,S3,Data & Infra
+P05_TL29,P05,Sales GTM Playbook and Automation,TL29,Stripe,Product & Business
+P05_TL30,P05,Sales GTM Playbook and Automation,TL30,SendGrid,Enterprise Integration
+P05_TL31,P05,Sales GTM Playbook and Automation,TL31,Make,Enterprise Integration
+P05_TL36,P05,Sales GTM Playbook and Automation,TL36,Salesforce API,Enterprise Integration
+P05_TL50,P05,Sales GTM Playbook and Automation,TL50,Slack API,Enterprise Integration
+P06_TL01,P06,Engineering Productivity AI Copilot,TL01,LangChain,AI/ML & LLM
+P06_TL02,P06,Engineering Productivity AI Copilot,TL02,Mistral API,AI/ML & LLM
+P06_TL04,P06,Engineering Productivity AI Copilot,TL04,Postgres,Data & Infra
+P06_TL09,P06,Engineering Productivity AI Copilot,TL09,Next.js,Full-Stack & APIs
+P06_TL12,P06,Engineering Productivity AI Copilot,TL12,S3,Data & Infra
+P06_TL26,P06,Engineering Productivity AI Copilot,TL26,GitHub Actions,MLOps/LLMOps
+P06_TL38,P06,Engineering Productivity AI Copilot,TL38,Tree-sitter,Full-Stack & APIs
+P06_TL39,P06,Engineering Productivity AI Copilot,TL39,LSP,Full-Stack & APIs
+P06_TL40,P06,Engineering Productivity AI Copilot,TL40,VS Code,Full-Stack & APIs
+P07_TL04,P07,Field Service Optimization and Routing,TL04,Postgres,Data & Infra
+P07_TL06,P07,Field Service Optimization and Routing,TL06,Flask,Full-Stack & APIs
+P07_TL12,P07,Field Service Optimization and Routing,TL12,S3,Data & Infra
+P07_TL23,P07,Field Service Optimization and Routing,TL23,Redis,Data & Infra
+P07_TL41,P07,Field Service Optimization and Routing,TL41,OR-Tools,AI/ML & LLM
+P07_TL42,P07,Field Service Optimization and Routing,TL42,PostGIS,Data & Infra
+P07_TL43,P07,Field Service Optimization and Routing,TL43,Twilio,Enterprise Integration
+P07_TL49,P07,Field Service Optimization and Routing,TL49,React Native,Full-Stack & APIs
+P07_TL52,P07,Field Service Optimization and Routing,TL52,Google Maps API,Enterprise Integration
+P07_TL13,P07,Field Service Optimization and Routing,TL13,Express.js,Full-Stack & APIs
+P08_TL01,P08,Healthcare Patient Outcome Prediction,TL01,LangChain,AI/ML & LLM
+P08_TL02,P08,Healthcare Patient Outcome Prediction,TL02,Mistral API,AI/ML & LLM
+P08_TL05,P08,Healthcare Patient Outcome Prediction,TL05,FastAPI,Full-Stack & APIs
+P08_TL20,P08,Healthcare Patient Outcome Prediction,TL20,XGBoost,AI/ML & LLM
+P08_TL23,P08,Healthcare Patient Outcome Prediction,TL23,Redis,Data & Infra
+P08_TL24,P08,Healthcare Patient Outcome Prediction,TL24,Grafana,MLOps/LLMOps
+P08_TL28,P08,Healthcare Patient Outcome Prediction,TL28,SHAP,MLOps/LLMOps
+P08_TL37,P08,Healthcare Patient Outcome Prediction,TL37,Looker,Product & Business
+P08_TL44,P08,Healthcare Patient Outcome Prediction,TL44,spaCy,AI/ML & LLM
+P08_TL45,P08,Healthcare Patient Outcome Prediction,TL45,Auth0,Enterprise Integration
+P08_TL46,P08,Healthcare Patient Outcome Prediction,TL46,HL7 FHIR,Enterprise Integration
+P08_TL04,P08,Healthcare Patient Outcome Prediction,TL04,Postgres,Data & Infra
+P09_TL04,P09,Marketing Performance Attribution,TL04,Postgres,Data & Infra
+P09_TL06,P09,Marketing Performance Attribution,TL06,Flask,Full-Stack & APIs
+P09_TL12,P09,Marketing Performance Attribution,TL12,S3,Data & Infra
+P09_TL26,P09,Marketing Performance Attribution,TL26,GitHub Actions,MLOps/LLMOps
+P09_TL27,P09,Marketing Performance Attribution,TL27,dbt,Data & Infra
+P09_TL37,P09,Marketing Performance Attribution,TL37,Looker,Product & Business
+P09_TL47,P09,Marketing Performance Attribution,TL47,Snowflake,Data & Infra
+P09_TL48,P09,Marketing Performance Attribution,TL48,Google Analytics API,Enterprise Integration
+P09_TL13,P09,Marketing Performance Attribution,TL13,Express.js,Full-Stack & APIs
+P10_TL01,P10,Cinema Revenue Optimization and Pricing,TL01,LangChain,AI/ML & LLM
+P10_TL02,P10,Cinema Revenue Optimization and Pricing,TL02,Mistral API,AI/ML & LLM
+P10_TL04,P10,Cinema Revenue Optimization and Pricing,TL04,Postgres,Data & Infra
+P10_TL05,P10,Cinema Revenue Optimization and Pricing,TL05,FastAPI,Full-Stack & APIs
+P10_TL09,P10,Cinema Revenue Optimization and Pricing,TL09,Next.js,Full-Stack & APIs
+P10_TL12,P10,Cinema Revenue Optimization and Pricing,TL12,S3,Data & Infra
+P10_TL23,P10,Cinema Revenue Optimization and Pricing,TL23,Redis,Data & Infra
+P10_TL26,P10,Cinema Revenue Optimization and Pricing,TL26,GitHub Actions,MLOps/LLMOps
+P10_TL29,P10,Cinema Revenue Optimization and Pricing,TL29,Stripe,Product & Business
+P10_TL43,P10,Cinema Revenue Optimization and Pricing,TL43,Twilio,Enterprise Integration
+P10_TL08,P10,Cinema Revenue Optimization and Pricing,TL08,AWS Lambda,Data & Infra

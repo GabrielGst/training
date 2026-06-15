@@ -1,0 +1,4 @@
+# Photonic Quantum Sampling for Materials Discovery (Boson Sampling)
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+

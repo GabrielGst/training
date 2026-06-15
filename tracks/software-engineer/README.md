@@ -2,7 +2,7 @@
 
 ## Objective
 
-Build production-grade full-stack engineering skills: from shell scripting and Node.js backends to Next.js frontends and CI/CD pipelines. By the end of this track, you can ship a full-stack web application end-to-end, solo or in a team.
+Build production-grade full-stack engineering skills: from shell scripting and Node.js backends to Next.js frontends and CI/CD pipelines. By the end of this track you can ship a full-stack web application end-to-end, solo or in a team — and anchor that in real FDE portfolio projects.
 
 ---
 
@@ -18,13 +18,37 @@ Build production-grade full-stack engineering skills: from shell scripting and N
 
 ## Modules
 
-| # | Module | Key Skills | Status |
-|---|--------|-----------|--------|
-| 01 | [Shell Scripting](01-shell-scripting/) | Bash, pipes, error handling, idempotent scripts | ⏳ |
-| 02 | [Node.js Fundamentals](02-nodejs-fundamentals/) | Node.js, Fastify/Express, REST, async, streams | ⏳ |
-| 03 | [Next.js](03-nextjs/) | App Router, RSC, SSR/SSG, TypeScript, Tailwind | ⏳ |
-| 04 | [Orchestration](04-orchestration/) | Docker Compose, GitHub Actions, k8s intro, Helm | ⏳ |
-| 05 | [Capstone: Full-Stack App](05-capstone-fullstack-app/) | All of the above, deployed | ⏳ |
+### Phase 1 — Foundations
+
+| # | Slug | Key Skills | Hours | Status |
+|---|------|-----------|-------|--------|
+| 01 | [01-shell-scripting](01-shell-scripting/) | Bash, pipes, error handling, idempotent scripts, env management | 10 | ⏳ |
+| 02 | [02-nodejs-fundamentals](02-nodejs-fundamentals/) | Node.js, Express/Fastify, REST, async, streams | 15 | ⏳ |
+| 03 | [03-nextjs-basics](03-nextjs/) | App Router, RSC, SSR/SSG, TypeScript strict mode, Tailwind | 15 | ⏳ |
+
+### Phase 2 — Core Modules
+
+| # | Slug | Key Skills | Hours | Anchor Project | Status |
+|---|------|-----------|-------|---------------|--------|
+| 04 | [04-nextjs-advanced](04-nextjs-advanced/) | API routes, server actions, auth (NextAuth), middleware, performance | 15 | P06 AI Copilot | ⏳ |
+| 05 | [05-orchestration](05-orchestration/) | Docker Compose, GitHub Actions, k8s intro, Helm basics | 15 | P02 Customer Support | ⏳ |
+| 06 | [06-testing-deep-dive](06-testing-deep-dive/) | Unit, integration, E2E (Playwright), coverage gates, mocking | 12 | P07 Field Service | ⏳ |
+| 07 | [07-performance-optimization](07-performance-optimization/) | Profiling, caching, query optimization, bundle analysis | 10 | P07 Field Service | ⏳ |
+
+### Phase 3 — Capstone
+
+| Slug | Description | Hours | Status |
+|------|-------------|-------|--------|
+| [capstone-fullstack-app](capstone-fullstack-app/) | Kanban task board: Next.js + Node.js + PostgreSQL + Playwright, deployed | 50 | ⏳ |
+
+---
+
+## FDE Portfolio Projects (anchored in this track)
+
+| Project | Domain | Key Skills | Modules Required |
+|---------|--------|-----------|-----------------|
+| [P07 Field Service](../../doc/roadmap/projects/ai-projects.md#p07) | Field Services | SK04, SK05, SK27, SK28 | 02, 03, 04, 06 |
+| [P06 AI Copilot](../../doc/roadmap/projects/ai-projects.md#p06) | Developer Tools | SK04, SK05, SK24 | 03, 04 |
 
 ---
 
@@ -32,16 +56,18 @@ Build production-grade full-stack engineering skills: from shell scripting and N
 
 From [`skill-matrix.md`](../../doc/research/skill-matrix.md):
 
-| Skill | JD Frequency | This Track Module |
-|-------|------------|-------------------|
-| TypeScript | **High** (growing) | 03-nextjs, 02-nodejs-fundamentals |
-| React / Next.js | **High** (43% React) | 03-nextjs |
-| Node.js | **High** | 02-nodejs-fundamentals |
-| Docker | **High** | 04-orchestration |
-| GitHub Actions | **High** | 04-orchestration |
-| Bash scripting | **Medium** | 01-shell-scripting |
-| Testing (Jest/Playwright) | **High** | 03-nextjs, 05-capstone |
-| PostgreSQL | **High** | 05-capstone-fullstack-app |
+| Skill ID | Skill | JD Frequency | Tier | Module |
+|----------|-------|------------|------|--------|
+| — | JavaScript / TypeScript | **High** (66% JS, TS growing) | P1 | 02-nodejs-fundamentals, 03-nextjs-basics |
+| — | React | **High** (43%) | P1 | 03-nextjs-basics |
+| — | Next.js (App Router) | **High** | P1 | 03-nextjs-basics, 04-nextjs-advanced |
+| — | Node.js | **High** | P1 | 02-nodejs-fundamentals |
+| SK04 | API Design & Contract Management | **High** | P1 | 02-nodejs-fundamentals |
+| SK05 | Full-Stack Application Development | **High** | P1 | 03-nextjs-basics, 04-nextjs-advanced |
+| — | Docker / Docker Compose | **High** | P1 | 05-orchestration |
+| — | GitHub Actions / CI-CD | **High** | P1 | 05-orchestration |
+| — | Testing (Jest / Playwright) | **High** | P1 | 06-testing-deep-dive |
+| — | Shell scripting (Bash) | **Medium** | P2 | 01-shell-scripting |
 
 ---
 
@@ -55,6 +81,8 @@ From [`skill-matrix.md`](../../doc/research/skill-matrix.md):
 
 ## Capstone
 
-**Module 05 — Full-Stack Task Management App**
+**`capstone-fullstack-app` — Full-Stack Task Management App**
 
-A Kanban task board with drag-and-drop, real-time updates, and a PostgreSQL backend. Built with Next.js 14+ App Router, TypeScript, Tailwind, and Playwright E2E tests. Deployed to Vercel (frontend) + Railway (database). See [doc/roadmap/phase-3-capstones.md](../../doc/roadmap/phase-3-capstones.md#capstone-2-full-stack-task-management-app-software-engineer) for full spec.
+A Kanban task board with drag-and-drop, real-time updates, and a PostgreSQL backend. Built with Next.js 14+ App Router, TypeScript, Tailwind, and Playwright E2E tests. Deployed to Vercel (frontend) + Railway (database).
+
+Full spec: [doc/roadmap/phase-3-capstones.md](../../doc/roadmap/phase-3-capstones.md#capstone-2-full-stack-task-management-app-software-engineer)

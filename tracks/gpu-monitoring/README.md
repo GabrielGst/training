@@ -4,17 +4,31 @@
 
 Set up and operate a remote NVIDIA GPU machine for deep learning training. Build the workflow for pushing training scripts from an Ubuntu development machine to a Windows NVIDIA machine, monitoring GPU utilization, and pulling results back.
 
-This track is shorter than the others — it's infrastructure, not a domain. Complete it early (Phase 2, weeks 5–7) so the GPU is available for AI engineer track capstone work.
+This track is shorter than the others — it's infrastructure, not a domain. Complete it early (Phase 2, weeks 5–7) so the GPU is available for AI Engineer track capstone work.
 
 ---
 
 ## Modules
 
-| # | Module | Key Skills | Status |
-|---|--------|-----------|--------|
-| 01 | [CUDA Setup](01-cuda-setup/) | CUDA toolkit, driver compat, Docker GPU passthrough, verify setup | ⏳ |
-| 02 | [nvidia-smi + nvtop](02-nvidia-smi-nvtop/) | GPU monitoring commands, scripted alerts, utilization logging | ⏳ |
-| 03 | [Remote Training Bridge](03-remote-training-bridge/) | SSH key auth, rsync workflows, remote PyTorch execution, VSCode Remote SSH | ⏳ |
+### Phase 1 — Foundations
+
+| # | Slug | Key Skills | Hours | Status |
+|---|------|-----------|-------|--------|
+| 01 | [01-cuda-setup](01-cuda-setup/) | CUDA toolkit, driver compat, Docker GPU passthrough, verify setup | 8 | ⏳ |
+| 02 | [02-nvidia-smi-nvtop](02-nvidia-smi-nvtop/) | GPU monitoring commands, scripted alerts, utilization logging | 8 | ⏳ |
+
+### Phase 2 — Core Modules
+
+| # | Slug | Key Skills | Hours | Status |
+|---|------|-----------|-------|--------|
+| 03 | [03-remote-training-bridge](03-remote-training-bridge/) | SSH key auth, rsync workflows, remote PyTorch execution, VSCode Remote SSH | 12 | ⏳ |
+| 04 | [04-training-dashboard](04-training-dashboard/) | Real-time training metrics, TensorBoard, wandb integration, live GPU stats | 12 | ⏳ |
+
+### Phase 3 — Capstone
+
+| Slug | Description | Hours | Status |
+|------|-------------|-------|--------|
+| [capstone-gpu-monitor](capstone-gpu-monitor/) | Typer-based CLI + web dashboard showing live GPU stats from remote machine | 30 | ⏳ |
 
 ---
 
@@ -27,7 +41,7 @@ From [`skill-matrix.md`](../../doc/research/skill-matrix.md):
 | PyTorch GPU training | **High** (for ML roles) | 01-cuda-setup, 03-remote-training-bridge |
 | CUDA setup | **Medium** | 01-cuda-setup |
 | Remote training workflows | **Medium** | 03-remote-training-bridge |
-| GPU monitoring | **Medium** | 02-nvidia-smi-nvtop |
+| GPU monitoring | **Medium** | 02-nvidia-smi-nvtop, 04-training-dashboard |
 
 ---
 
@@ -55,6 +69,8 @@ Quick checklist:
 
 ## Capstone
 
-**Module 03 extension — Remote Training CLI**
+**`capstone-gpu-monitor` — Remote Training CLI + Monitoring Dashboard**
 
-A Typer-based CLI for launching, monitoring, and retrieving results from remote training jobs. See [doc/roadmap/phase-3-capstones.md](../../doc/roadmap/phase-3-capstones.md#capstone-5-remote-gpu-training-cli-gpu-monitoring) for full spec.
+A Typer-based CLI for launching, monitoring, and retrieving results from remote training jobs. Includes a web dashboard showing live GPU utilization, memory, temperature, and loss/accuracy curves.
+
+Full spec: [doc/roadmap/phase-3-capstones.md](../../doc/roadmap/phase-3-capstones.md#capstone-5-remote-gpu-training-cli-gpu-monitoring)

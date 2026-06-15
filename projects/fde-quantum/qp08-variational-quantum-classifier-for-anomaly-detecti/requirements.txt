@@ -1,0 +1,4 @@
+# Variational Quantum Classifier for Anomaly Detection in Sensor Networks
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+

@@ -1,0 +1,4 @@
+# Rydberg Neutral-Atom QAOA for Logistics Route Optimisation
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+

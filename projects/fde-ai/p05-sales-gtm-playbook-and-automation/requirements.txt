@@ -1,0 +1,4 @@
+# Sales GTM Playbook and Automation
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+

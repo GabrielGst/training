@@ -1,0 +1,4 @@
+# Cinema Demand Forecasting & Dynamic Pricing with Quantum Optimisation
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+
