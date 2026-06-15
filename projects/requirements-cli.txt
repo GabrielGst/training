@@ -1,0 +1,18 @@
+# Root development CLI dependencies.
+# Each track has its own requirements.txt for track-specific packages.
+
+# Linting & formatting
+ruff==0.9.1
+black==24.10.0
+
+# Testing
+pytest==8.3.4
+pytest-cov==6.0.0
+pytest-asyncio==0.25.2
+
+# Notebook support
+ipykernel==6.29.5
+jupyter==1.1.1
+
+# Type checking
+mypy==1.13.0
