@@ -1,0 +1,5 @@
+# Ollama LLMs implementation
+# Add project dependencies below.
+# Keep pinned versions once working: package==x.y.z
+
+ollama==0.6.2
