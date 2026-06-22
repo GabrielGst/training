@@ -1,11 +1,11 @@
 import json
 import ollama
 import sys
-import os
 
 SYSTEM_PROMPT = "You are a helpful assistant. You will be provided with a series of messages from a conversation. Your task is to analyze the conversation and provide a thoughtful response based on the context of the messages. Please ensure that your response is relevant, coherent, and adds value to the ongoing discussion."
 FILENAME = "message_history.json"
 DEFAULT_MODEL = "llama3.1:latest"
+MODELFILE_MODELS = {"vc-tech-expert0.1"}
 
 def load_history(filename: str = FILENAME) -> list[dict]:
     """loads saved message history from disk, creating the file if it does not exist
@@ -35,17 +35,14 @@ def save_history(messages: list[dict], filename: str = FILENAME) -> None:
     with open(filename, 'w') as f:
         json.dump(messages, f, indent=4)
 
-def clean_history(filename: str = FILENAME) -> list[dict]:
+def clean_history(filename: str = FILENAME) -> None:
     """clears the message history file
 
     Args:
         filename (str): name of the record file storing messages history
-
-    Returns:
-        list[dict]: list containing only the system prompt after clearing the history
     """
     save_history([], filename)
-    return [{"role": "system", "content": SYSTEM_PROMPT}]
+
 
 def quit_chat(messages: list[dict], filename: str = FILENAME, save: bool = False) -> None:
     """quits the chat and saves the message history if specified
@@ -77,7 +74,11 @@ def process_request(request: str, messages: list[dict], available_models: list[s
         save_history(messages, filename)
         print("Message history saved.")
     elif request == "/clear":
-        messages = clean_history(filename)
+        if model in MODELFILE_MODELS:
+            messages = []
+        else:
+            messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+        clean_history(filename)
         print("Message history cleared.")
     elif request == "/quit":
         quit_chat(messages, filename)
